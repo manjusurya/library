@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Login</title>
+    <script src="login.js"></script>
+    <style>
+        nav{
+            
+            background-color: black;
+        }
+   
+       
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <ul class="navbar-nav">
+
+          <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="login.html">Log in</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="signup.html">Sign up</a>
+          </li>
+
+         
+         
+         
+        </ul>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div><h1>library</h1></div>
+                <form >
+                    <br>
+                    
+                    <tr>
+                        <td>email:</td>
+                        <td><input type="email" class="form-control" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>password:</td>
+                        <td><input type="password" class="form-control" id="password"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><button class="btn btn-success" onclick="validate();">login</button></td>
+                        
+                    </tr>
+
+
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
